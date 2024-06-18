@@ -6,7 +6,7 @@ Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y
 <b><h2>Video de la aplicación:</h2></b>
 
 <b><h2>Desarrollo Challenger Libros:</h2></b>
-<p>Se utilizará la api de EXCHANGERATE para cambio de moneda en linea <br>(https://www.exchangerate-api.com/) </p>
+<p>Se utilizará la api de EXCHANGERATE para cambio de moneda en linea <br>https://www.exchangerate-api.com/ </p>
 
 [![My Skills](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
 <h2 id="indice">Índice de la Página</h2>
