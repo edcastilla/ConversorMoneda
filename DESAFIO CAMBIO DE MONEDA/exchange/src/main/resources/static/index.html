@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertidor de Moneda (Currency Converter)</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<h1>Convertidor de Moneda <br>(Currency Converter)</h1>
+<div class="right-align">
+    <img src="/grafico.png" alt="Currency Image" width="150">
+</div>
+
+<div>
+    <label for="amount">Monto (Amount):</label>
+    <input type="number" id="amount" value="1" min="0" step="0.01">
+</div>
+
+
+
+
+<div>
+    <label for="baseCurrency">De Moneda (From Currency):</label>
+    <select id="baseCurrency">
+        <option value="AED" style="background-image: url('/banderas/united-arab-emirates.png');">AED - United Arab Emirates Dirham</option>
+        <option value="ARS" data-icon="/banderas/argentina.jpg">ARS - Argentine Peso</option>
+        <option value="AUD">AUD - Australian Dollar</option>
+        <option value="BRL" data-icon="/banderas/brazil.png">BRL - Brazilian Real</option>
+        <option value="CAD">CAD - Canadian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="CLP">CLP - Chilean Peso</option>
+        <option value="CNY">CNY - Chinese Yuan</option>
+        <option value="COP">COP - Colombian Peso</option>
+        <option value="CRC">CRC - Costa Rican Colón</option>
+        <option value="DKK">DKK - Danish Krone</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound Sterling</option>
+        <option value="HKD">HKD - Hong Kong Dollar</option>
+        <option value="HNL">HNL - Honduran Lempira</option>
+        <option value="IDR">IDR - Indonesian Rupiah</option>
+        <option value="ILS">ILS - Israeli New Shekel</option>
+        <option value="INR">INR - Indian Rupee</option>
+        <option value="JPY" data-icon="/banderas/japon.png">JPY - Japanese Yen</option>
+        <option value="KRW">KRW - South Korean Won</option>
+        <option value="MXN" data-icon="/banderas/mexico.png">MXN - Mexican Peso</option>
+        <option value="MYR">MYR - Malaysian Ringgit</option>
+        <option value="NIO">NIO - Nicaraguan Córdoba</option>
+        <option value="NZD">NZD - New Zealand Dollar</option>
+        <option value="PAB">PAB - Panamanian Balboa</option>
+        <option value="PEN">PEN - Peruvian Sol</option>
+        <option value="PHP">PHP - Philippine Peso</option>
+        <option value="PLN">PLN - Polish Zloty</option>
+        <option value="RUB" data-icon="/banderas/russia.png">RUB - Russian Ruble</option>
+        <option value="SAR">SAR - Saudi Riyal</option>
+        <option value="SEK">SEK - Swedish Krona</option>
+        <option value="SGD">SGD - Singapore Dollar</option>
+        <option value="THB">THB - Thai Baht</option>
+        <option value="TRY">TRY - Turkish Lira</option>
+        <option value="TWD">TWD - Taiwan New Dollar</option>
+        <option value="UAH">UAH - Ukrainian Hryvnia</option>
+        <option value="USD">USD - United States Dollar</option>
+        <option value="VEF" data-icon="/banderas/venezuela.png">VEF - Venezuelan Bolívar</option>
+        <option value="ZAR">ZAR - South African Rand</option>
+
+    </select>
+</div>
+
+<div>
+    <label for="targetCurrency">A Moneda (To Currency):</label>
+    <select id="targetCurrency">
+        <option value="AED" style="background-image: url('/banderas/united-arab-emirates.png');">AED - United Arab Emirates Dirham</option>
+        <option value="ARS">ARS - Argentine Peso</option>
+        <option value="AUD">AUD - Australian Dollar</option>
+        <option value="BRL">BRL - Brazilian Real</option>
+        <option value="CAD">CAD - Canadian Dollar</option>
+        <option value="CHF">CHF - Swiss Franc</option>
+        <option value="CLP">CLP - Chilean Peso</option>
+        <option value="CNY">CNY - Chinese Yuan</option>
+        <option value="COP">COP - Colombian Peso</option>
+        <option value="CRC">CRC - Costa Rican Colón</option>
+        <option value="DKK">DKK - Danish Krone</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound Sterling</option>
+        <option value="HKD">HKD - Hong Kong Dollar</option>
+        <option value="HNL">HNL - Honduran Lempira</option>
+        <option value="IDR">IDR - Indonesian Rupiah</option>
+        <option value="ILS">ILS - Israeli New Shekel</option>
+        <option value="INR">INR - Indian Rupee</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="KRW">KRW - South Korean Won</option>
+        <option value="MXN">MXN - Mexican Peso</option>
+        <option value="MYR">MYR - Malaysian Ringgit</option>
+        <option value="NIO">NIO - Nicaraguan Córdoba</option>
+        <option value="NZD">NZD - New Zealand Dollar</option>
+        <option value="PAB">PAB - Panamanian Balboa</option>
+        <option value="PEN">PEN - Peruvian Sol</option>
+        <option value="PHP">PHP - Philippine Peso</option>
+        <option value="PLN">PLN - Polish Zloty</option>
+        <option value="RUB">RUB - Russian Ruble</option>
+        <option value="SAR">SAR - Saudi Riyal</option>
+        <option value="SEK">SEK - Swedish Krona</option>
+        <option value="SGD">SGD - Singapore Dollar</option>
+        <option value="THB">THB - Thai Baht</option>
+        <option value="TRY">TRY - Turkish Lira</option>
+        <option value="TWD">TWD - Taiwan New Dollar</option>
+        <option value="UAH">UAH - Ukrainian Hryvnia</option>
+        <option value="USD">USD - United States Dollar</option>
+        <option value="VEF">VEF - Venezuelan Bolívar</option>
+        <option value="ZAR">ZAR - South African Rand</option>
+
+    </select>
+</div>
+
+<button onclick="convertCurrency()">Convertir (Convert)</button>
+
+<h2>Resultado (Result):</h2>
+<div id="result"></div>
+
+<script>
+    async function convertCurrency() {
+        const amount = document.getElementById('amount').value;
+        const baseCurrency = document.getElementById('baseCurrency').value;
+        const targetCurrency = document.getElementById('targetCurrency').value;
+
+        const response = await fetch(`/exchange-rate?baseCurrency=${baseCurrency}`);
+        const data = await response.json();
+
+        const conversionRate = data.conversion_rates[targetCurrency];
+        const convertedAmount = (amount * conversionRate).toFixed(2);
+
+        const resultDiv = document.getElementById('result');
+        resultDiv.innerHTML = `${amount} ${baseCurrency} = ${convertedAmount} ${targetCurrency}`;
+    }
+</script>
+
+</body>
+</html>
