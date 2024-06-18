@@ -52,11 +52,11 @@ Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y
 # <img src="carpeta.png" width="80" height="80">Estructura del proyecto.
 <h2 id="seccion3">Estructura del proyecto.</h2>
 
-<img src="PROYECTO_LIBROS.JPG" width="500" height="500">
+<img src="estructuradelproyecto.JPG" width="500" height="500">
 
 <a href="#indice"><button>Ir al Índice</button></a>
 
-# <img src="tabla.png" width="80" height="80">Tabla en Postgres.
+
 
 <a href="#indice"><button>Ir al Índice</button></a>
 <h2 id="seccion7">GIT</h2>
