@@ -39,14 +39,8 @@ Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y
         <a href="https://www.jetbrains.com/es-es/idea/">IntelliJ id. link.</a> 
     <li><b>Spring initializr. link :&nbsp;</li>
         <a href="https://start.spring.io/">Spring initializr.</a>   
-    <li><b>Postgres . link :&nbsp;</li>
-        <a href="https://www.postgresql.org/download/">Postgres.</a>  
-    <li><b>Postman. link :&nbsp;</li>
-        <a href="https://www.postman.com/">Postman.</a>    
-    <li><b>Java 17. link :&nbsp;<br></li>
-        <a href="https://www.oracle.com/java/technologies/downloads//">Java 17.</a>  
-    <li><b>Spring data jpa. link :<br></li>
-        <a href="https://docs.spring.io/spring-data/jpa/reference/">Spring data jpa.</a> 
+     <li><b>Java 17. link :&nbsp;<br></li>
+        <a href="https://www.oracle.com/java/technologies/downloads//">Java 17.</a> 
    <li><b>Maven Repository. link :&nbsp;</li>
     <a href="https://mvnrepository.com/">Maven Repository.</a> 
 
