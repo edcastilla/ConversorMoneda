@@ -55,10 +55,6 @@ Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y
 <img src="estructuradelproyecto.JPG" width="500" height="500">
 
 <a href="#indice"><button>Ir al Índice</button></a>
-
-
-
-<a href="#indice"><button>Ir al Índice</button></a>
 <h2 id="seccion7">GIT</h2>
 <p><b> GIT</b> </p>
 <a href="#indice"><button>Ir al Índice</button></a> 
