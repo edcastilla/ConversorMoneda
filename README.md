@@ -1,8 +1,8 @@
 # ConversorMoneda
 Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y java
 
-# <img src="challenger.png" width="80" height="80">Challenger-Libros-Alura.
-<b><h3>Bienvenidos al Challenger sobre Libros propuesto por Alura.</h3></b><br>
+# <img src="challenger.png" width="80" height="80">Challenger-Conversor de Moneda.
+<b><h3>Bienvenidos al Challenger sobre Conversor de Moneda propuesto por Alura.</h3></b><br>
 <b><h2>Video de la aplicación:</h2></b>
 
 <b><h2>Desarrollo Challenger Libros:</h2></b>
@@ -24,7 +24,7 @@ Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y
 <div>
 <ol>
   <li>Clona este repositorio en tu máquina local:<br> git clone
-   https://github.com/edcastilla/alura-libros</li>
+   https://github.com/edcastilla/ConversorMoneda</li>
   <li>Abre el proyecto en su IDE Favorito.</li>
   <li>Recuerda tener instalado Java en su sistema.</li>
 </ol>
