@@ -1,5 +1,5 @@
 # Conversor De Moneda
-Se utiliza un conversor de moneda mediante con una pagina web, hoja estilo css y java
+Se utiliza un conversor de moneda esta dentro de una pagina web con hoja estilo css y  lenguaje utilizado para la aplicacion es java
 
 # <img src="challenger.png" width="80" height="80">Challenger-Conversor de Moneda.
 <b><h3>Bienvenidos al Challenger sobre Conversor de Moneda propuesto por Alura.</h3></b><br>
